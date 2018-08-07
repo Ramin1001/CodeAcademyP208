@@ -1,0 +1,16 @@
+
+var il=0;
+var number=1;
+
+function Buil(il){
+  if(number<=il){
+    console.log(number);
+    number++;
+    Buil(il); 
+  }
+  else { 
+    console.log("End");
+  }
+}
+
+Buil(2018);
